@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Block_fall : MonoBehaviour
-{
-    // Start is called before the first frame update
+{    
     float nRandom;
     float Rd_Position;
     float nMax = 0.4f;
@@ -25,23 +24,19 @@ public class Block_fall : MonoBehaviour
     {
         if (nRandom == 0)
         {
-                transform.Translate(new Vector3(0, Zero, 0) * 1f * Time.deltaTime);
-                Debug.Log("현재 레벨 1의 속도로 블럭이 내려가고 있습니다.");
+                transform.Translate(new Vector3(0, Zero, 0) * 1f * Time.deltaTime);                
         }
         else if (nRandom == 1)
         {
-            transform.Translate(new Vector3(0, Two, 0) * 2f * Time.deltaTime);
-            Debug.Log("현재 레벨 2의 속도로 블럭이 내려가고 있습니다.");
+            transform.Translate(new Vector3(0, Two, 0) * 2f * Time.deltaTime);            
         }
         else if (nRandom == 2)
         {
-            transform.Translate(new Vector3(0, Three, 0) * 3f * Time.deltaTime);
-            Debug.Log("현재 레벨 3의 속도로 블럭이 내려가고 있습니다.");
+            transform.Translate(new Vector3(0, Three, 0) * 3f * Time.deltaTime);            
         }
         else if (nRandom == 3)
         {
             transform.Translate(new Vector3(0, Four, 0) * 4f * Time.deltaTime);
-            Debug.Log("현재 레벨 4의 속도로 블럭이 내려가고 있습니다.");
         }
         if (transform.position.y < -7)
         {
