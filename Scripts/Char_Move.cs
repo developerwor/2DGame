@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class Char_Move : MonoBehaviour
 {
+    // 캐릭터 오브젝트
     public GameObject Chariter;
-    public float Speed;
-    bool Jumpcheck;
-    float JumpTimecheck;
-    
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    // 캐릭터 스피드
+    public float Speed;
+    
     void Update()
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
