@@ -8,7 +8,7 @@ public class Main_flowcam : MonoBehaviour
     
     void Start()
     {
-        // CharPos의 변수에 현재 Player라는 태그가 붙어 있는 오브젝트의 trasnform값을 할당
+        // CharPos의 변수에 현재 Player라는 태그가 붙어 있는 오브젝트 trasnform값을 할당
         CharPos = GameObject.FindWithTag("Player").transform;
     }
     
