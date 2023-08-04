@@ -29,7 +29,6 @@ public class Block_fall : MonoBehaviour
         Rd_Position = Random.RandomRange(nMin, nMax);
     }
 
-    // Update is called once per frame
     void Update()
     {
         //-------------블럭 낙하 스피드 타입---------------//
