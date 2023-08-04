@@ -8,7 +8,7 @@ public class Char_Move : MonoBehaviour
     public float Speed;
     bool Jumpcheck;
     float JumpTimecheck;
-    // Start is called before the first frame update
+    
     void Start()
     {
         
