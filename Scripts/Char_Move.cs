@@ -39,7 +39,6 @@ public class Char_Move : MonoBehaviour
         {
             Chariter.transform.Translate(new Vector3(0,8,0) *Speed* Time.deltaTime);
             Chariter.GetComponent<Animator>().Play("Fly");
-           
         }
 
         // 에리어를 벗어날시
